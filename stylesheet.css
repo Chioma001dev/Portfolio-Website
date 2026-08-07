@@ -196,6 +196,79 @@ header{
     color:white;
 }
 
+/* Education Section */
+#education {
+    padding: 60px 5%;
+    background: #f5f7fa;
+}
+
+#education .title {
+    text-align: center;
+    color: #174a7c;
+    margin-bottom: 40px;
+}
+
+/* Education container */
+.education-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+}
+
+/* Vertical line */
+.education-container::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #1686bd;
+}
+
+/* Education cards */
+.education-card {
+    position: relative;
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    color: #000;
+}
+
+/* Circle on timeline */
+.education-card::before {
+    content: "";
+    position: absolute;
+    left: -38px;
+    top: 20px;
+    width: 14px;
+    height: 14px;
+    background: #1686bd;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Education headings */
+.education-card h3 {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Education text */
+.education-card p {
+    color: #000;
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+.education-card strong {
+    color: #000;
+}
+
 /* ==========================
    PROJECTS SECTION
 ========================== */
